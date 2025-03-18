@@ -89,44 +89,45 @@
     <section id="contact">
       <h1>Contact Us</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt error, itaque soluta blanditiis dolor maxime.</p>
-      <div class="contact-detail"></div>
-      <form action="">
-        <h1>Tell Us Your Problem</h1>
-        <div class="form-group">
-          <div class="input-group">
-            <label for="">Name</label>
-            <input type="text" placeholder="Your Name" />
+      <div class="contact-detail">
+        <form action="">
+          <h1>Tell Us Your Problem</h1>
+          <div class="form-group">
+            <div id="input-name" class="input-group">
+              <label for="">Name</label>
+              <input type="text" placeholder="Your Name" />
+            </div>
+            <div id="input-subject" class="input-group">
+              <label for="">Subject</label>
+              <input type="text" />
+            </div>
+            <div id="input-email" class="input-group">
+              <label for="">Email</label>
+              <input type="email" />
+            </div>
+            <div id="input-phone" class="input-group">
+              <label for="">Phone Number</label>
+              <input type="tel" />
+            </div>
+            <div id="input-message" class="input-group">
+              <label for="">Message</label>
+              <input type="text" />
+            </div>
           </div>
-          <div class="input-group">
-            <label for="">Subject</label>
-            <input type="text" />
-          </div>
-          <div class="input-group">
-            <label for="">Email</label>
-            <input type="email" />
-          </div>
-          <div class="input-group">
-            <label for="">Phone Number</label>
-            <input type="tel" />
-          </div>
-          <div class="input-group">
-            <label for="">Message</label>
-            <input type="text" />
-          </div>
+          <button class="btn">Submit</button>
+        </form>
+        <div>
+          <h1>Our Location</h1>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.519429034274!2d106.8230701!3d-6.194985099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5561518a139%3A0x2911f3a14f98eea7!2sBundaran%20HI!5e0!3m2!1sid!2sid!4v1740241668115!5m2!1sid!2sid"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
-        <button>Submit</button>
-      </form>
-      <div>
-        <h1>Our Location</h1>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.519429034274!2d106.8230701!3d-6.194985099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5561518a139%3A0x2911f3a14f98eea7!2sBundaran%20HI!5e0!3m2!1sid!2sid!4v1740241668115!5m2!1sid!2sid"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
       </div>
     </section>
     <footer>
@@ -134,7 +135,7 @@
         <h1>Coder</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolor, unde minima dignissimos voluptatibus facilis.</p>
       </div>
-      <div>
+      <div class="social-icons">
         <img src="image/facebook-svgrepo-com.svg" alt="" width="40" />
         <img src="image/linkedin-svgrepo-com.svg" alt="" width="40" />
         <img src="image/youtube-svgrepo-com.svg" alt="" width="40" />
