@@ -3,19 +3,26 @@
 }
 h1 {
   font-weight: 600;
-  font-size: 48px;
+  font-size: 32px;
   margin: 0 0 16px 0;
 }
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   color: black;
-  font-size: 24px;
+  font-size: 16px;
   margin: 4px;
 }
 p {
   color: #979797;
   margin: 0 0 16px 0;
-  font-size: 24px;
+  font-size: 16px;
 }
 section {
   padding: 64px 128px;
@@ -24,6 +31,7 @@ section {
   background-color: #ffc108;
   color: white;
   padding: 8px 24px;
+  border-radius: 8px;
 }
 .btn-alt {
   background-color: white;
@@ -46,8 +54,8 @@ section {
   justify-content: space-between;
   column-gap: 16px;
 }
-#landing img{
-    margin-left: 128px;
+#landing img {
+  margin-left: 128px;
 }
 #landing > div {
   width: 50%;
@@ -94,16 +102,113 @@ section {
   column-gap: 128px;
   margin-top: 72px;
 }
-.service-image{
-    box-shadow : 0 3px 4px #979797;
+.service-image {
+  box-shadow: 0 3px 4px #979797;
 }
-.service-image img{
-    width: 100%;
+.service-image img {
+  width: 100%;
 }
-.service-image h2{
-    padding: 0 16px;
+.service-image h2 {
+  padding: 0 16px;
 }
-.service-image p{
-    font-size: 16px;
-    padding: 0 16px;
+.service-image p {
+  font-size: 16px;
+  padding: 0 16px;
 }
+
+/* Contacts */
+
+form button {
+  border: none;
+}
+
+form h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.contact-detail {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 72px;
+  column-gap: 128px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #ffc108;
+  padding: 64px 32px;
+}
+
+.form-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 32px;
+  margin-top: 32px;
+  grid-template-areas:
+    "name  subject"
+    "email  phone"
+    "message  message";
+}
+
+#input-name {
+  grid-area: name;
+}
+
+#input-subject {
+  grid-area: subject;
+}
+
+#input-email {
+  grid-area: email;
+}
+
+#input-phone {
+  grid-area: phone;
+}
+
+#input-message {
+  grid-area: message;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.input-group label {
+  font-weight: 700;
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+/* Contacts End */
+
+/* Footer */
+footer {
+  padding: 16px 128px;
+  background-color: #ffc108;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  color: white;
+  width: 50%;
+}
+
+.icons {
+  display: flex;
+  gap: 16px;
+}
+/* Footer ends */
