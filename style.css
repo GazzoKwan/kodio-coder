@@ -62,8 +62,8 @@ section {
   justify-content: space-between;
   column-gap: 16px;
 }
-#landing img{
-    margin-left: 128px;
+#landing img {
+  margin-left: 128px;
 }
 #landing > div {
   width: 50%;
@@ -116,18 +116,18 @@ section {
   column-gap: 128px;
   margin-top: 72px;
 }
-.service-image{
-    box-shadow : 0 3px 4px #979797;
+.service-image {
+  box-shadow: 0 3px 4px #979797;
 }
-.service-image img{
-    width: 100%;
+.service-image img {
+  width: 100%;
 }
-.service-image h2{
-    padding: 0 16px;
+.service-image h2 {
+  padding: 0 16px;
 }
-.service-image p{
-    font-size: 16px;
-    padding: 0 16px;
+.service-image p {
+  font-size: 16px;
+  padding: 0 16px;
 }
 /* service ends */
 
