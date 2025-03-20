@@ -12,6 +12,14 @@ h1 {
   margin: 0 0 16px 0;
 }
 
+nav > a{
+  margin-left: 12px;
+}
+
+nav > a:hover {
+  color: #ffc108;
+}
+
 a {
   text-decoration: none;
   color: black;
